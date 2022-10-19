@@ -61,7 +61,7 @@ media_estado2.show()
 
 <h3> :bar_chart: Demostração dos dados em gráfico.</h3>
 
-- Os gráficos a seguir, fazem uma corelação dos dados de obitos por covid e desemprego no primeiro trimestre de 2020 e segundo trimestre de 2022 de acordo com cada estado.
+- Os gráficos a seguir, fazem uma corelação dos dados de obitos por covid em todo o período de 2020 à 2022 e de desemprego no primeiro trimestre de 2020 e segundo trimestre de 2022 de acordo com cada estado.
 
 ```
 to_plot = [v for v in list(graf.columns)]
