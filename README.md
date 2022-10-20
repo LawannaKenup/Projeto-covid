@@ -59,7 +59,7 @@ media_estado2.show()
 <img width="684" alt="desemprego" src="https://user-images.githubusercontent.com/107578850/196764815-5873ba61-06e1-4095-b987-6e06a0a7d0eb.png">
 
 
-<h3> :bar_chart: Demostração dos dados em gráfico.</h3>
+<h3> :bar_chart: Demonstração dos dados em gráfico.</h3>
 
 - Os gráficos a seguir, fazem uma corelação dos dados de obitos por covid em todo o período de 2020 à 2022 e de desemprego no primeiro trimestre de 2020 e segundo trimestre de 2022 de acordo com cada estado.
 
