@@ -53,7 +53,7 @@ media_estado2.show()
 
 <h3> :pencil: Dados de desmeprego por trimestre no Brasil de acordo com o estado.</h3>
 
- - Os dados se tratam de pessoas que se encontravam desempregadas na semana da pesquisa realizada pelo IBGE.
+ - Os dados se tratam de pessoas que se encontravam desempregadas na semana da pesquisa realizada pelo IBGE, levando em considerção que de 2020 à 2022 não houveram pesquisas do IBGE decorrente da pandemia por COVID19.
  
 
 <img width="684" alt="desemprego" src="https://user-images.githubusercontent.com/107578850/196764815-5873ba61-06e1-4095-b987-6e06a0a7d0eb.png">
