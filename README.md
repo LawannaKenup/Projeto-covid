@@ -1,6 +1,6 @@
 <h1 align="center"> Projeto Covid </h1>
 
-<h4 align="center">Projeto  desenvolvido em PySpark contendo uma análise dos dados da tabela de Covid do Brasil, relacionando dados de desemprego, educação e IDHM</h4>
+<h4 align="center">Projeto  desenvolvido em PySpark contendo uma análise dos dados da tabela de COVID do Brasil, relacionando dados de desemprego, educação e IDHM.</h4>
 
 <h2 align="center"><img src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=green&style=for-the-badge"/></h2>
 
@@ -8,12 +8,12 @@
  
  <h2>:gear: Acesso ao Projeto</h2>
  
-- Para acessar o projeto basta clonar o repositório.
+- Para acessar o projeto, basta clonar o repositório.
 
 `git clone https://github.com/LawannaKenup/Projeto-covid.git`
 
 
-<h3> :pencil: Um panorama geral de obitos por covid de acordo com o estado.</h3>
+<h3> :pencil: Um panorama geral de obitos por COVID de acordo com o estado.</h3>
 
 ```
 estado_total_ob = estados.drop("data")\
@@ -51,9 +51,9 @@ media_estado2.show()
 
 <img width="424" alt="media_totoal_estados" src="https://user-images.githubusercontent.com/107578850/196763150-06930e69-468f-4a24-8f9d-5fb2728c3379.png">
 
-<h3> :pencil: Dados de desmeprego por trimestre no Brasil de acordo com o estado.</h3>
+<h3> :pencil: Dados de desemprego por trimestre no Brasil de acordo com o estado.</h3>
 
- - Os dados se tratam de pessoas que se encontravam desempregadas na semana da pesquisa realizada pelo IBGE, levando em considerção que de 2020 à 2022 não houveram pesquisas do IBGE decorrente da pandemia por COVID19.
+ - Os dados se tratam de pessoas que se encontravam desempregadas na semana da pesquisa realizada pelo IBGE, devendo-se levar em considerção que de 2020 à 2022 não houveram pesquisas decorrente da pandemia por COVID19.
  
 
 <img width="684" alt="desemprego" src="https://user-images.githubusercontent.com/107578850/196764815-5873ba61-06e1-4095-b987-6e06a0a7d0eb.png">
@@ -61,7 +61,7 @@ media_estado2.show()
 
 <h3> :bar_chart: Demonstração dos dados em gráfico.</h3>
 
-- Os gráficos a seguir, fazem uma corelação dos dados de obitos por covid em todo o período de 2020 à 2022 e de desemprego no primeiro trimestre de 2020 e segundo trimestre de 2022 de acordo com cada estado.
+- Os gráficos a seguir, fazem uma corelação dos dados de obitos por COVID em todo o período de 2020 à 2022 e de desemprego no primeiro trimestre de 2020 e segundo trimestre de 2022 de acordo com cada estado.
 
 ```
 to_plot = [v for v in list(graf.columns)]
@@ -98,7 +98,7 @@ graf_desemprego_covidxx.show()
   <img width="852" alt="desemprego2t2022" src="https://user-images.githubusercontent.com/107578850/196767607-dc569044-65c2-4124-b3be-1602c29fa80c.png">
 
 
-<h3> :mag_right: Fonte de dados.</h3>
+<h3> :mag_right: Fonte de dados:</h3>
 
 https://www.ibge.gov.br/
 
